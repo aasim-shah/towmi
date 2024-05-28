@@ -10,7 +10,7 @@ const FeaturesSection = () => {
             <div className="flex my-12 justify-center items-center w-10/12  sm:w-4/12 mx-auto flex-col">
                 <div className="flex flex-row relative items-end justify-center">
                     <div className="w-[2rem] h-[2rem]  absolute left-[-1.3rem] top-[-1.4rem] transform scale-x-[-1]">
-                        <Image className='w-full h-full' src={"/drops.svg"} width={50} height={50} />
+                        <Image className='w-full h-full' src={"/drops.svg"} alt='asset-image' width={50} height={50} />
                     </div>
                     <span className='text-2xl font-semibold '> 📲 User-Friendly App</span>
 
@@ -52,7 +52,7 @@ const FeaturesSection = () => {
 
 
                 <div className="w-[100rem] sm:w-[50rem] h-[30rem]  " >
-                    <Image className='w-full  h-full' src={"/user_friendly_app.svg"} width={1400} height={1400} />
+                    <Image className='w-full  h-full' src={"/user_friendly_app.svg"} alt='asset-image' width={1400} height={1400} />
                 </div>
 
 

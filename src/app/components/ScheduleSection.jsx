@@ -8,10 +8,10 @@ const ScheduleSection = () => {
             <div className="w-9/12 mx-auto  justify-between  flex flex-col sm:flex-row ">
                 <div className="w-[20rem] h-[30rem] relative" >
                     <div className="w-[28rem] h-[38rem]  top-[-5rem] left-[-4rem] absolute " >
-                        <Image className='w-full h-full ' src={"/rings.svg"} width={500} height={400} />
+                        <Image className='w-full h-full ' src={"/rings.svg"} alt='asset-image' width={500} height={400} />
                     </div>
-                    <Image className='w-full h-full absolute' src={"/rings.svg"} width={500} height={400} />
-                    <Image className='w-full absolute h-full' src={"/rings-img.svg"} width={500} height={400} />
+                    <Image className='w-full h-full absolute' src={"/rings.svg"} alt='asset-image' width={500} height={400} />
+                    <Image className='w-full absolute h-full' src={"/rings-img.svg"} alt='asset-image' width={500} height={400} />
                 </div>
                 <div className="flex  w-full sm:w-6/12 flex-col h-[60vh]  ">
                     <div className="flex flex-row items-end ">

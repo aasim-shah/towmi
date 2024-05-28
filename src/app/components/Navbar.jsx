@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className=' px-20 py-5 text-white flex flex-row justify-between items-center'>
         <div className="logo">
-          <Image src={"/logo.svg"} width={80} height={30} />
+          <Image src={"/logo.svg"} alt='asset-image' width={80} height={30} />
         </div>
         <div className=" hidden sm:flex flex-row gap-3">
             <Link href="/">Home</Link>
