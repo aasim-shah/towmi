@@ -15,7 +15,7 @@ const CoverageSection = () => {
                     </div>
 
                     <p className="text-sm mt-12 font-medium">
-                        Towmi's extensive network spans across Nigeria, ensuring comprehensive coverage wherever you are. Drive confidently, knowing help is just a tap away.
+                        Towmi &rsquo; s extensive network spans across Nigeria, ensuring comprehensive coverage wherever you are. Drive confidently, knowing help is just a tap away.
                     </p>
 
 
@@ -31,7 +31,7 @@ const CoverageSection = () => {
                     </p>
 
                     <p className="text-sm mt-12 font-medium">
-                        <span className='font-semibold'>  3. On-Road Peace: </span> With Towmi's widespread coverage and unwavering support, experience tranquility on every journey, knowing assistance is there whenever needed.
+                        <span className='font-semibold'>  3. On-Road Peace: </span> With Towmi &rsquo; s widespread coverage and unwavering support, experience tranquility on every journey, knowing assistance is there whenever needed.
 
                     </p>
 
