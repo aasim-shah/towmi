@@ -6,9 +6,9 @@ const CoverageSection = () => {
         <div className=' mt-32  w-full '>
 
             <div className="w-9/12 mx-auto  justify-between  flex flex-col sm:flex-row ">
-                <div className="flex w-full sm:w-6/12 flex-col h-[60vh]  ">
+                <div className="flex w-full sm:w-6/12 flex-col   ">
                     <div className="flex flex-row items-end ">
-                        <span className='text-2xl font-semibold '> 🗺️ Nationwide Coverage</span>
+                        <span className='text-lg sm:text-2xl  font-semibold '> 🗺️ Nationwide Coverage</span>
                         <div className="w-[2rem] h-[2rem]">
                             <Image className='w-full h-full' src={"/drops.svg"} alt='asset-image' width={50} height={50} />
                         </div>
@@ -41,7 +41,7 @@ const CoverageSection = () => {
 
 
                 <div className="w-[20rem] h-[30rem] relative mt-24 sm:mt-0" >
-                    <div className="w-[28rem] h-[38rem]  top-[-5rem] left-[-4rem] absolute " >
+                    <div className="w-[25rem] h-[38rem]  top-[-5rem] left-[-4rem] absolute " >
                         <Image className='w-full h-full ' alt='asset-image' src={"/rings.svg"} width={500} height={400} />
                     </div>
                     <Image className='w-full h-full absolute' alt='asset-image' src={"/rings.svg"} width={500} height={400} />

@@ -11,7 +11,7 @@ const DownloadSection
          
 
           <p className="text-gray-300 text-sm sm:text-lg ">Ready to redefine your emergency assistance experience?</p>
-          <p className="text-gray-300 text-xs sm:text-sm ">Download Towmi now and drive with confidence on Nigeria &rsquo; s roads! 🌐🚦</p>
+          <p className="text-gray-300 text-xs sm:text-sm ">Download Towmi now and drive with confidence on Nigeria &rsquo;s roads! 🌐🚦</p>
 
           <div className="flex w-9/12  sm:w-7/12  justify-between flex-row">
             <a href="/downlaod" className=''>
@@ -25,7 +25,7 @@ const DownloadSection
 
         </div>
         <div className="w-[20rem] mt-12  relative flex items-end justify-end mb-0 pb-0 h-[13rem] sm:h-[20rem]" >
-          <Image className='w-full h-full absolute top-4' src={"/download_app.svg"} alt='asset-image' width={500} height={400} />
+          <Image className='w-full h-full absolute top-8 sm:top-4' src={"/download_app.svg"} alt='asset-image' width={500} height={400} />
         </div>
       </div>
 

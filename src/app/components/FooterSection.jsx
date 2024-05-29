@@ -9,7 +9,7 @@ const FooterSection = () => {
                     <Image src={"/logo_blac.svg"} width={80} alt='asset-image' height={30} />
                 </div>
                 <p className="text-sm font-medium mt-5">
-                    Lorem ipsum dolor sit amet consectetur. Eget eget porta est tellus aliquet nulla. Ultrices quis.
+                    Lorem ipsum dolor sit amet consectetur. Eget eget porta est 
                 </p>
                 <div className="flex flex-row gap-4 mt-5">
                     <div className="w-8 h-8">

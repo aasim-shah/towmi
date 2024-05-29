@@ -3,7 +3,7 @@ import React from 'react'
 
 const FeaturesSection = () => {
     return (
-        <div className=' mt-20  w-full '>
+        <div className=' my-12  w-full '>
 
 
 
@@ -21,13 +21,13 @@ const FeaturesSection = () => {
             </div>
 
 
-            <div className="w-11/12 mx-auto overflow-x-scroll  justify-evenly flex flex-row ">
+            <div className="w-11/12 mx-auto   justify-evenly flex flex-row ">
 
 
 
 
 
-                <div className="flex  flex-col h-[60vh]   justify-between">
+                <div className="flex  flex-col    justify-between">
                     <div className="flex flex-col w-8/12 ml-auto">
                         <span className='text-sm sm:text-lg font-semibold  text-end'> Current Booking</span>
                         <p className="text-sm font-light  hidden sm:block text-end mt-5">

@@ -14,7 +14,7 @@ const HeroSection = () => {
 
           <p className="text-gray-300 text-lg ">Towmi: Nigeria &rsquo; s emergency companion. Swift access to essential services, ensuring peace of mind in any situation – your safety, our priority!</p>
 
-          <div className="flex w-11/12 sm:w-7/12  justify-between flex-row">
+          <div className="flex w-11/12 sm:w-7/12  pb-3 justify-between flex-row">
             <a href="/downlaod" className=''>
               <Image className='w-full h-full' src={"/Ios.svg"} alt='asset-image' width={500} height={400} />
             </a>
@@ -25,7 +25,7 @@ const HeroSection = () => {
           </div>
 
         </div>
-        <div className="w-[20rem] mb-12 sm:mb-0 h-[30rem]" >
+        <div className="w-[17rem] sm:w-[20rem] mb-12 sm:mb-0 h-[30rem]" >
           <Image className='w-full h-full' src={"/Hero_image.svg"} alt='asset-image' width={500} height={400} />
         </div>
       </div>
