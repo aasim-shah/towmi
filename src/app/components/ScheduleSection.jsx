@@ -11,7 +11,7 @@ const ScheduleSection = () => {
 
             <div className="w-9/12 mx-auto  justify-between  flex flex-col-reverse sm:flex-row ">
             <motion.div
-             initial={{x : -30}}
+             initial={{x : -14}}
              transition={{
                type : "spring",
                stiffness : 90,

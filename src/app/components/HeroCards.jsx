@@ -32,7 +32,7 @@ const HeroCards = () => {
                 </div>
                 <div className="bgClr w-full rounded-[1.3rem] p-5">
                     <motion.div
-                        initial={{ x: 40, opacity: 0 }}
+                        initial={{ x: 30, opacity: 0 }}
                         transition={{ duration: 1 }}
                         whileInView={{ x: 0, opacity: 1 }}
                         className="w-[10rem] mx-auto h-[10rem]" >

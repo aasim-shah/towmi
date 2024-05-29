@@ -44,7 +44,7 @@ const CoverageSection = () => {
 
 
                 <motion.div
-                        initial={{ x: 30, opacity: 0 }}
+                        initial={{ x: 20, opacity: 0 }}
                         transition={{ duration: 0.5 }}
                         whileInView={{ x: 0, opacity: 1 }}            
                     className="w-[20rem] h-[30rem] relative mt-24 sm:mt-0" >

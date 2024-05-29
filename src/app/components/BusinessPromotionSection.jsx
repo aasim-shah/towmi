@@ -22,7 +22,7 @@ const BusinessSection = () => {
       </div>
 
       <motion.div
-        initial={{ y: 100, opacity: 0 }}
+        initial={{ y: 40, opacity: 0 }}
         transition={{ duration: 0.5 }}
         whileInView={{ y: 0, opacity: 1 }}
         className="sm:w-[14rem] w-[8rem] mx-auto  relative  h-[17rem] sm:h-[20rem]">
