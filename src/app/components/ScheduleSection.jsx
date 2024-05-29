@@ -1,18 +1,30 @@
+"use client"
 import Image from 'next/image'
 import React from 'react'
 
+import { motion, transform, useScroll } from "framer-motion"
+
 const ScheduleSection = () => {
+  
     return (
         <div className=' pt-12  w-full '>
 
             <div className="w-9/12 mx-auto  justify-between  flex flex-col-reverse sm:flex-row ">
-                <div className="w-[20rem] h-[30rem] mt-5 sm:mt-0 relative" >
-                    <div className="w-[25rem] h-[38rem]  top-[-5rem] left-[-4rem] absolute " >
-                        <Image className='w-full h-full ' src={"/rings.svg"} alt='asset-image' width={500} height={400} />
-                    </div>
+            <motion.div
+             initial={{x : -30}}
+             transition={{
+               type : "spring",
+               stiffness : 90,
+               duration : 0.3
+
+             }}
+             whileInView={{x : 0}}
+            className="w-[20rem] h-[30rem] mt-5 sm:mt-0 relative"
+        >
+
                     <Image className='w-full h-full absolute' src={"/rings.svg"} alt='asset-image' width={500} height={400} />
                     <Image className='w-full absolute h-full' src={"/rings-img.svg"} alt='asset-image' width={500} height={400} />
-                </div>
+                </motion.div>
                 <div className="flex  w-full sm:w-6/12 flex-col   ">
                     <div className="flex flex-row items-end ">
                         <span className=' text-lg sm:text-2xl font-semibold '> 📅 Flexible Scheduling</span>

@@ -14,7 +14,7 @@ const Navbar = () => {
             <Link href="/">Scheduling</Link>
             <Link href="/">Download App</Link>
         </div>
-        <a href="/downlaod" className='bg-white py-2 px-3 font-medium rounded-md text-center text-black'>Download App</a>
+        <a href="/downlaod" className='bg-white py-2 px-3 font-medium rounded-md hover:bg-[#042E59] hover:border hover:text-white text-center text-black'>Download App</a>
     </nav>
   )
 }

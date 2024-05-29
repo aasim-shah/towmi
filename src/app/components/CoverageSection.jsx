@@ -1,5 +1,8 @@
+"use client"
 import Image from 'next/image'
 import React from 'react'
+
+import { motion, transform, useScroll } from "framer-motion"
 
 const CoverageSection = () => {
     return (
@@ -40,13 +43,16 @@ const CoverageSection = () => {
 
 
 
-                <div className="w-[20rem] h-[30rem] relative mt-24 sm:mt-0" >
-                    <div className="w-[25rem] h-[38rem]  top-[-5rem] left-[-4rem] absolute " >
-                        <Image className='w-full h-full ' alt='asset-image' src={"/rings.svg"} width={500} height={400} />
-                    </div>
+                <motion.div
+                        initial={{ x: 30, opacity: 0 }}
+                        transition={{ duration: 0.5 }}
+                        whileInView={{ x: 0, opacity: 1 }}            
+                    className="w-[20rem] h-[30rem] relative mt-24 sm:mt-0" >
+
+
                     <Image className='w-full h-full absolute' alt='asset-image' src={"/rings.svg"} width={500} height={400} />
                     <Image className='w-full absolute h-full' alt='asset-image' src={"/coverage.svg"} width={500} height={400} />
-                </div>
+                </motion.div>
             </div>
 
         </div>)

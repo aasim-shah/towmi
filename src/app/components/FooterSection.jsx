@@ -3,8 +3,8 @@ import React from 'react'
 
 const FooterSection = () => {
     return (
-        <div className="flex mt-12 pb-5 sm:w-10/12 mx-auto justify-evenly flex-row">
-            <div className="flex flex-col w-3/12">
+        <div className="flex mt-12 pb-5 w-10/12 mx-auto justify-evenly flex-col  gap-5 sm:flex-row">
+            <div className="flex flex-col sm:w-3/12">
                 <div className="logo">
                     <Image src={"/logo_blac.svg"} width={80} alt='asset-image' height={30} />
                 </div>
@@ -23,13 +23,13 @@ const FooterSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col gap-3 w-3/12">
+            <div className="flex flex-col gap-3 sm:w-3/12">
                 <p className="font-bold mb-5">Company</p>
                 <p className="text-sm font-medium">Partner With Us  </p>
                 <p className="text-sm font-medium">FAQs  </p>
                 <p className="text-sm font-medium">Privacy Policy  </p>
             </div>
-            <div className="flex flex-col gap-3 w-3/12">
+            <div className="flex flex-col gap-3 sm:w-3/12">
                 <p className="font-bold mb-5">Contact Us</p>
                 <p className="text-sm font-medium">21 St Omers Road, Hitchin  </p>
                 <p className="text-sm font-medium">+44 7700 900984  </p>
