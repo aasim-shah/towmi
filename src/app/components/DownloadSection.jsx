@@ -11,7 +11,7 @@ const DownloadSection
          
 
           <p className="text-gray-300 text-sm sm:text-lg ">Ready to redefine your emergency assistance experience?</p>
-          <p className="text-gray-300 text-xs sm:text-sm ">Download Towmi now and drive with confidence on Nigeria's roads! 🌐🚦</p>
+          <p className="text-gray-300 text-xs sm:text-sm ">Download Towmi now and drive with confidence on Nigeria &rsquo; s roads! 🌐🚦</p>
 
           <div className="flex w-9/12  sm:w-7/12  justify-between flex-row">
             <a href="/downlaod" className=''>

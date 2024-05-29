@@ -12,7 +12,7 @@ const HeroSection = () => {
           </p>
 
 
-          <p className="text-gray-300 text-lg ">Towmi: Nigeria's emergency companion. Swift access to essential services, ensuring peace of mind in any situation – your safety, our priority!</p>
+          <p className="text-gray-300 text-lg ">Towmi: Nigeria &rsquo; s emergency companion. Swift access to essential services, ensuring peace of mind in any situation – your safety, our priority!</p>
 
           <div className="flex w-11/12 sm:w-7/12  justify-between flex-row">
             <a href="/downlaod" className=''>

@@ -24,7 +24,7 @@ const HeroCards = () => {
                         <Image className='w-full h-full' src={"/truck.svg"} alt='asset-image' width={500} height={400} />
                     </div>
                     <p className="text-center text-gray-200 font-semibold">Book  Trucks</p>
-                    <p className="text-center text-gray-100 px-3 font-light">Towmi: Effortless truck bookings for seamless logistics—whether on-demand or scheduled, we've got your heavy loads covered!</p>
+                    <p className="text-center text-gray-100 px-3 font-light">Towmi: Effortless truck bookings for seamless logistics—whether on-demand or scheduled, we have got your heavy loads covered!</p>
                 </div>
             </div>
         </div>

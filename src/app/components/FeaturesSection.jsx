@@ -16,7 +16,7 @@ const FeaturesSection = () => {
 
                 </div>
                 <p className="text-sm font-light text-center mt-5">
-                    Towmi's intuitive mobile app ensures effortless navigation. Booking ambulances, tow trucks, and trucks is just a tap away, providing a seamless and stress-free experience.
+                     Towmi &rsquo; s intuitive mobile app ensures effortless navigation. Booking ambulances, tow trucks, and trucks is just a tap away, providing a seamless and stress-free experience.
                 </p>
             </div>
 
@@ -42,7 +42,7 @@ const FeaturesSection = () => {
                     <div className="flex flex-col w-8/12 ml-auto">
                         <span className='text-sm sm:text-lg font-semibold  text-end'> Car towing Booking</span>
                         <p className="text-sm font-light text-end  hidden sm:block mt-5">
-                            Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it. Towmi's got your back!
+                            Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it.  Towmi &rsquo; s got your back!
                         </p>
                     </div>
 
@@ -74,7 +74,7 @@ const FeaturesSection = () => {
                     <div className="flex flex-col w-8/12 ">
                         <span className='text-sm sm:text-lg font-semibold  '> Car towing Booking</span>
                         <p className="text-sm font-light  hidden sm:block mt-5">
-                            Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it. Towmi's got your back!
+                            Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it. Towmi&rsquo;s got your back!
                         </p>
                     </div>
 

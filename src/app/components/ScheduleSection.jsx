@@ -31,12 +31,12 @@ const ScheduleSection = () => {
 
 
                     <p className="text-sm mt-12 font-medium">
-                        <span className='font-semibold'>  2. Tow Truck On-Demand:  </span> Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it. Towmi's got your back!
+                        <span className='font-semibold'>  2. Tow Truck On-Demand:  </span> Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it.  Towmi &rsquo; s got your back!
 
                     </p>
 
                     <p className="text-sm mt-12 font-medium">
-                        <span className='font-semibold'> 3. Effortless Truck Bookings: </span> Move heavy loads effortlessly with Towmi's seamless truck bookings. Whether on-demand or scheduled for later, logistics becomes a breeze at your fingertips.
+                        <span className='font-semibold'> 3. Effortless Truck Bookings: </span> Move heavy loads effortlessly with  Towmi &rsquo; s seamless truck bookings. Whether on-demand or scheduled for later, logistics becomes a breeze at your fingertips.
 
                     </p>
 

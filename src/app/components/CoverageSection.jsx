@@ -21,7 +21,7 @@ const CoverageSection = () => {
 
                     <p className="text-sm mt-12 font-medium">
                         <span className='font-semibold'>   1. Nationwide Coverage : </span>
-                        Towmi's broad network ensures instant assistance across Nigeria, from cityscapes to remote areas. Drive confidently with help at your fingertips.
+                        Towmi  &rsquo; s broad network ensures instant assistance across Nigeria, from cityscapes to remote areas. Drive confidently with help at your fingertips.
                     </p>
 
 
