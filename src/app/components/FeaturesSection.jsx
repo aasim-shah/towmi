@@ -21,16 +21,16 @@ const FeaturesSection = () => {
             </div>
 
 
-            <div className="w-11/12 mx-auto   justify-evenly flex flex-row ">
+            <div className="w-11/12 mx-auto   justify-evenly flex flex-col sm:flex-row ">
 
 
 
 
 
                 <div className="flex  flex-col    justify-between">
-                    <div className="flex flex-col w-8/12 ml-auto">
-                        <span className='text-sm sm:text-lg font-semibold  text-end'> Current Booking</span>
-                        <p className="text-sm font-light  hidden sm:block text-end mt-5">
+                    <div className="flex flex-col w-8/12 sm:ml-auto">
+                        <span className='text-sm sm:text-lg font-semibold  sm:text-end'> Current Booking</span>
+                        <p className="text-sm font-light   sm:text-end mt-5">
                             Show a list of active booking on home
                             screen make it easy for user to see current
                             and upcoming booking
@@ -41,7 +41,7 @@ const FeaturesSection = () => {
 
                     <div className="flex flex-col w-8/12 ml-auto">
                         <span className='text-sm sm:text-lg font-semibold  text-end'> Car towing Booking</span>
-                        <p className="text-sm font-light text-end  hidden sm:block mt-5">
+                        <p className="text-sm font-light text-end   mt-5">
                             Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it.  Towmi &rsquo; s got your back!
                         </p>
                     </div>
@@ -51,7 +51,7 @@ const FeaturesSection = () => {
 
 
 
-                <div className="w-[100rem] sm:w-[50rem] h-[30rem]  " >
+                <div className="w-[23rem] my-3 sm:w-[50rem] h-[30rem]  " >
                     <Image className='w-full  h-full' src={"/user_friendly_app.svg"} alt='asset-image' width={1400} height={1400} />
                 </div>
 
@@ -59,10 +59,10 @@ const FeaturesSection = () => {
 
 
 
-                <div className="flex  flex-col h-[60vh]  justify-between">
+                <div className="flex  flex-col   justify-between">
                     <div className="flex flex-col w-8/12 ">
                         <span className='text-sm sm:text-lg font-semibold  '> Current Booking</span>
-                        <p className="text-sm font-light hidden sm:block  mt-5">
+                        <p className="text-sm font-light   mt-5">
                             Show a list of active booking on home
                             screen make it easy for user to see current
                             and upcoming booking
@@ -71,9 +71,9 @@ const FeaturesSection = () => {
 
 
 
-                    <div className="flex flex-col w-8/12 ">
+                    <div className="flex flex-col ml-auto mt-4 sm:mt-0 w-8/12 ">
                         <span className='text-sm sm:text-lg font-semibold  '> Car towing Booking</span>
-                        <p className="text-sm font-light  hidden sm:block mt-5">
+                        <p className="text-sm font-light   mt-5">
                             Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it. Towmi&rsquo;s got your back!
                         </p>
                     </div>
