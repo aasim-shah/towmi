@@ -23,12 +23,12 @@ const Navbar = () => {
         <Link href={"/"} className="logo">
           <Image src={"/logo.svg"} alt='asset-image' width={80} height={30} />
         </Link>
-        <div className=" hidden sm:flex flex-row gap-3">
+        {/* <div className=" hidden sm:flex flex-row gap-3">
             <Link href="/">Home</Link>
             <Link href="/">Our Services</Link>
             <Link href="/">Scheduling</Link>
             <Link href="/">Download App</Link>
-        </div>
+        </div> */}
         <button onClick={handleOpenModal} className='bg-white py-2 px-3 font-medium rounded-md hover:bg-[#042E59] hover:border hover:text-white text-center text-black'>Download App</button>
     </nav>
   )
