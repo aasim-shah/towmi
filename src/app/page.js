@@ -8,6 +8,7 @@ import BusinessSection from "./components/BusinessPromotionSection";
 import FeaturesSection from "./components/FeaturesSection";
 import DownloadSection from "./components/DownloadSection";
 import FooterSection from "./components/FooterSection";
+import BecomeDriver from "./components/BecomeDriverSection";
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
     <HeroCards/>
     <ScheduleSection/>
     <CoverageSection/>
-    <BusinessSection/>
+    <BecomeDriver/>
+
     <FeaturesSection/>
     <DownloadSection/>
     <FooterSection/>

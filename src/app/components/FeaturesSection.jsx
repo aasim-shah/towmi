@@ -30,8 +30,8 @@ const FeaturesSection = () => {
 
 
 
-                <div className="flex  flex-col items-center sm:h-[60vh]  justify-between">
-                    <div className="flex flex-col w-10/12  sm:ml-auto">
+                <div className="flex  flex-col items-center sm:h-[70vh]  justify-between">
+                    <div className="flex flex-col w-10/12  md:w-6/12 sm:ml-auto">
                         <span className='text-sm sm:text-lg font-semibold  sm:text-end'> Current Booking</span>
                         <p className="text-sm font-light   sm:text-end mt-5">
                             Show a list of active booking on home
@@ -42,7 +42,7 @@ const FeaturesSection = () => {
 
 
 
-                    <div className="flex flex-col mt-5 w-10/12 sm:ml-auto ">
+                    <div className="flex flex-col mt-5 w-10/12 md:w-6/12 sm:ml-auto ">
                         <span className='text-sm sm:text-lg font-semibold  sm:text-end'> Car towing Booking</span>
                         <p className="text-sm font-light mt-5 sm:text-end">
                             Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it.  Towmi &rsquo; s got your back!
@@ -63,7 +63,7 @@ const FeaturesSection = () => {
                     }}
                     whileInView={{ x: 0, opacity: 1 }}
 
-                    className="w-[23rem] my-3 sm:w-[50rem] h-[30rem]  " >
+                    className="w-[23rem] md:w-[60rem] md:h-[97vh] my-3  h-[30rem]  " >
                     <Image className='w-full  h-full' src={"/user_friendly_app.svg"} alt='asset-image' width={1400} height={1400} />
                 </motion.div>
 
@@ -71,8 +71,8 @@ const FeaturesSection = () => {
 
 
 
-                <div className="flex  flex-col sm:h-[60vh] items-center justify-between">
-                    <div className="flex flex-col w-10/12 ">
+                <div className="flex  flex-col sm:h-[70vh] items-center justify-between">
+                    <div className="flex flex-col w-10/12 md:w-6/12">
                         <span className='text-sm sm:text-lg font-semibold  '> Current Booking</span>
                         <p className="text-sm font-light   mt-5">
                             Show a list of active booking on home
@@ -83,7 +83,7 @@ const FeaturesSection = () => {
 
 
 
-                    <div className="flex flex-col  mt-5  w-10/12 ">
+                    <div className="flex flex-col  mt-5  w-10/12 md:w-6/12">
                         <span className='text-sm sm:text-lg font-semibold  '> Car towing Booking</span>
                         <p className="text-sm font-light   mt-5">
                             Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it. Towmi&rsquo;s got your back!

@@ -9,7 +9,7 @@ const CoverageSection = () => {
         <div className=' mt-32  w-full '>
 
             <div className="w-9/12 mx-auto  justify-between  flex flex-col sm:flex-row ">
-                <div className="flex w-full sm:w-6/12 flex-col   ">
+                <div className="flex w-full sm:w-6/12 flex-col  justify-center ">
                     <div className="flex flex-row items-end ">
                         <span className='text-lg sm:text-2xl  font-semibold '> 🗺️ Nationwide Coverage</span>
                         <div className="w-[2rem] h-[2rem]">
@@ -47,7 +47,7 @@ const CoverageSection = () => {
                         initial={{ x: 20, opacity: 0 }}
                         transition={{ duration: 0.5 }}
                         whileInView={{ x: 0, opacity: 1 }}            
-                    className="w-[20rem] h-[30rem] relative mt-24 sm:mt-0" >
+                    className="w-[20rem] md:w-[25vw] md:h-[65vh] h-[30rem] relative mt-24 sm:mt-0" >
 
 
                     <Image className='w-full h-full absolute' alt='asset-image' src={"/rings.svg"} width={500} height={400} />
