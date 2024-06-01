@@ -28,7 +28,7 @@ const AmbulanceOwner = () => {
 
 
                     <p className="text-sm mt-12 font-medium">
-                        <span className='font-semibold'>  2. Flexible Schedule, Essential Service: </span> Join Towmi to offer emergency medical services on a schedule that suits you. Be a vital part of your community's well-being while enjoying the flexibility to earn on your terms.
+                        <span className='font-semibold'>  2. Flexible Schedule, Essential Service: </span> Join Towmi to offer emergency medical services on a schedule that suits you. Be a vital part of your community &rsquo; s well-being while enjoying the flexibility to earn on your terms.
 
                     </p>
 

@@ -41,7 +41,7 @@ const TruckOweners = () => {
 
 
                     <p className="text-sm mt-8 font-medium">
-                        <span className='font-semibold'>  2. Be Your Own Boss, </span> Set Your Schedule: With Towmi, you're in control. Be your own boss, set your schedule, and enjoy the flexibility of earning on your terms while providing essential transport services.
+                        <span className='font-semibold'>  2. Be Your Own Boss, </span> Set Your Schedule: With Towmi, you are in control. Be your own boss, set your schedule, and enjoy the flexibility of earning on your terms while providing essential transport services.
 
                     </p>
 

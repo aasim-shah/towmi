@@ -39,17 +39,17 @@ const UserFriendlyApp = () => {
 
                     <p className="text-sm mt-8 font-medium">
                         <span className='font-semibold'>   1.
-                            Seamless Booking Experience: </span> Towmi's user-friendly app simplifies the booking process, ensuring a seamless and hassle-free experience for drivers. Connect effortlessly with users in need with just a few taps.
+                            Seamless Booking Experience: </span> Towmi&rsquo;s user-friendly app simplifies the booking process, ensuring a seamless and hassle-free experience for drivers. Connect effortlessly with users in need with just a few taps.
                     </p>
 
 
                     <p className="text-sm mt-8 font-medium">
-                        <span className='font-semibold'>  2.Efficient Connection for Drivers: </span> Experience efficiency in connecting with users through Towmi's easy-to-use app. Streamlined and intuitive, it facilitates quick and straightforward interactions, making driving engagements straightforward.
+                        <span className='font-semibold'>  2.Efficient Connection for Drivers: </span> Experience efficiency in connecting with users through Towmi &rsquo; s easy-to-use app. Streamlined and intuitive, it facilitates quick and straightforward interactions, making driving engagements straightforward.
 
                     </p>
 
                     <p className="text-sm mt-8 font-medium">
-                        <span className='font-semibold'> 3. Simplified Driver-User Connection: </span> Towmi's app is designed with simplicity in mind, ensuring an easy and straightforward booking process. Drivers can effortlessly connect with users in need, making the entire experience smooth and user-friendly.
+                        <span className='font-semibold'> 3. Simplified Driver-User Connection: </span> Towmi &rsquo; s app is designed with simplicity in mind, ensuring an easy and straightforward booking process. Drivers can effortlessly connect with users in need, making the entire experience smooth and user-friendly.
 
                     </p>
 
