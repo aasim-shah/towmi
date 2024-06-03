@@ -34,8 +34,8 @@ const HeroSection = () => {
           </p>
 
 
-          <p className="text-white   responsive_text g my-12 ">Towmi: Nigeria &rsquo; s emergency companion. Swift access to essential services, ensuring peace of mind in any situation – your safety, our priority!</p>
-          <div className="flex flex-col text-white my-5">
+          <p className="text-white   responsive_text  ">Towmi: Nigeria &rsquo; s emergency companion. Swift access to essential services, ensuring peace of mind in any situation – your safety, our priority!</p>
+          <div className="flex flex-col text-white ">
             <p className="text-lg">We are almost ready ...</p>
             <p className="text-2xl font-semibold ">Launching IN</p>
           </div>
@@ -64,9 +64,9 @@ const HeroSection = () => {
             duration: 0.3
           }}
           whileInView={{ x: 0, opacity: 1 }}
-          className="w-[17rem] sm:w-[20rem] mt-12 relative  h-[35rem]" >
+          className="w-[17rem] sm:w-[20rem] mt-8 relative  h-[30rem]" >
 
-          <Image className='w-full h-full  absolute top-5 sm:top-5' src={"/Hero_image.svg"} alt='asset-image' width={500} height={400} />
+          <Image className='w-full h-full  absolute top-5 sm:top-0' src={"/Hero_image.svg"} alt='asset-image' width={500} height={400} />
         </motion.div>
       </div>
 

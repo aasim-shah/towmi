@@ -32,7 +32,7 @@ const CountdownTimer = () => {
   return (
     <div>
       {/* <h1>Countdown Timer</h1> */}
-      <div className='text-white mt-5 flex flex-row gap-20'>
+      <div className='text-white flex flex-row gap-20'>
         <div className='flex flex-col justify-center gap-3 items-center'>
           <span className='md:font-bold md:text-2xl'>{timeLeft.days || '0'}</span> Days
         </div>
