@@ -27,28 +27,28 @@ const UserFriendlyApp = () => {
                 </motion.div>
                 <div className="flex  w-full sm:w-6/12 flex-col justify-center  ">
                     <div className="flex flex-row items-end ">
-                        <span className=' text-lg sm:text-2xl font-semibold '> 📲 User-Friendly App</span>
+                        <span className=' responsive_title font-semibold '> 📲 User-Friendly App</span>
                         <div className="w-[2rem] h-[2rem]">
                             <Image className='w-full h-full' src={"/drops.svg"} width={50} height={50} />
                         </div>
                     </div>
 
-                    <p className="text-sm mt-12 font-medium">
+                    <p className="responsive_text mt-12 font-medium">
                         Our easy-to-use app streamlines the booking process, making it simple for drivers to connect with users in need.
                     </p>
 
-                    <p className="text-sm mt-8 font-medium">
+                    <p className="responsive_text mt-8 font-medium">
                         <span className='font-semibold'>   1.
                             Seamless Booking Experience: </span> Towmi&rsquo;s user-friendly app simplifies the booking process, ensuring a seamless and hassle-free experience for drivers. Connect effortlessly with users in need with just a few taps.
                     </p>
 
 
-                    <p className="text-sm mt-8 font-medium">
+                    <p className="responsive_text mt-8 font-medium">
                         <span className='font-semibold'>  2.Efficient Connection for Drivers: </span> Experience efficiency in connecting with users through Towmi &rsquo; s easy-to-use app. Streamlined and intuitive, it facilitates quick and straightforward interactions, making driving engagements straightforward.
 
                     </p>
 
-                    <p className="text-sm mt-8 font-medium">
+                    <p className="responsive_text mt-8 font-medium">
                         <span className='font-semibold'> 3. Simplified Driver-User Connection: </span> Towmi &rsquo; s app is designed with simplicity in mind, ensuring an easy and straightforward booking process. Drivers can effortlessly connect with users in need, making the entire experience smooth and user-friendly.
 
                     </p>

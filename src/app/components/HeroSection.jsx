@@ -3,9 +3,14 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 
 import { motion } from 'framer-motion'
+import Countdown from 'react-countdown';
+
 import CustomModal from './ComingSoonModel'
+import CountdownTimer from './CountDownTimer';
 
 const HeroSection = () => {
+  const targetDate = new Date("9/8/2024");
+
 
   const [isModalOpen, setModalOpen] = useState(false);
 
@@ -29,16 +34,24 @@ const HeroSection = () => {
           </p>
 
 
-          <p className="text-white text-sm text-center sm:text-lg my-12 ">Towmi: Nigeria &rsquo; s emergency companion. Swift access to essential services, ensuring peace of mind in any situation – your safety, our priority!</p>
+          <p className="text-white   responsive_text g my-12 ">Towmi: Nigeria &rsquo; s emergency companion. Swift access to essential services, ensuring peace of mind in any situation – your safety, our priority!</p>
+          <div className="flex flex-col text-white my-5">
+            <p className="text-lg">We are almost ready ...</p>
+            <p className="text-2xl font-semibold ">Launching IN</p>
+          </div>
 
           <div className="flex w-full  sm:w-7/12   pb-3 justify-between flex-row">
-            <button onClick={handleOpenModal} className=''>
-              <Image className='w-full h-full' src={"/Ios.svg"} alt='asset-image' width={500} height={400} />
-            </button>
+            {/* <button onClick={handleOpenModal} className='border border-gray-300  hover:bg-white hover:text-cyan-800 font-semibold text-white  px-4 py-2 rounded-md '> */}
+              {/* <Image className='w-full h-full' src={"/Ios.svg"} alt='asset-image' width={500} height={400} /> */}
+              {/* comming */}
+            {/* </button> */}
+{/* 
+            <button onClick={handleOpenModal} className='border border-gray-300  hover:bg-white hover:text-cyan-800 font-semibold text-white  px-4 py-2 rounded-md '>
 
-            <button onClick={handleOpenModal} className=''>
-              <Image className='w-full h-full' src={"/Android.svg"} alt='asset-image' width={500} height={400} />
-            </button>
+              coming
+            </button> */}
+                  <CountdownTimer date={targetDate} className='text-white ' />
+
 
           </div>
 
@@ -51,9 +64,9 @@ const HeroSection = () => {
             duration: 0.3
           }}
           whileInView={{ x: 0, opacity: 1 }}
-          className="w-[17rem] sm:w-[20rem] mt-12 relative sm:mt-0 h-[30rem]" >
+          className="w-[17rem] sm:w-[20rem] mt-12 relative  h-[35rem]" >
 
-          <Image className='w-full h-full  absolute top-5 sm:top-0' src={"/Hero_image.svg"} alt='asset-image' width={500} height={400} />
+          <Image className='w-full h-full  absolute top-5 sm:top-5' src={"/Hero_image.svg"} alt='asset-image' width={500} height={400} />
         </motion.div>
       </div>
 

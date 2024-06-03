@@ -14,25 +14,25 @@ const AmbulanceOwner = () => {
                         <div className="w-[2rem] h-[2rem]  absolute left-[-1.3rem] top-[-1.4rem] transform scale-x-[-1]">
                         <Image className='w-full h-full' src={"./drops.svg"} alt='asset-image' width={50} height={50} />
                     </div>
-                        <span className='text-lg sm:text-2xl  font-semibold '> 🚑 Ambulance Owners & Operators Needed:</span>
+                        <span className='responsive_title  font-semibold '> 🚑 Ambulance Owners & Operators Needed:</span>
                     </div>
 
-                    <p className="text-sm mt-12 font-medium">
+                    <p className="responsive_text mt-12 font-medium">
                     If you own an ambulance and have the skills to provide emergency medical assistance, Towmi is the platform for you. Partner with us to serve your community and earn on a flexible schedule.
                     </p>
 
 
-                    <p className="text-sm mt-12 font-medium">
+                    <p className="responsive_text mt-12 font-medium">
                         <span className='font-semibold'>   1.Emergency Medical Assistance Provider: </span> If you own an ambulance and possess emergency medical skills, Towmi welcomes you! Partner with us to provide crucial assistance, serving your community during critical times.
                     </p>
 
 
-                    <p className="text-sm mt-12 font-medium">
+                    <p className="responsive_text mt-12 font-medium">
                         <span className='font-semibold'>  2. Flexible Schedule, Essential Service: </span> Join Towmi to offer emergency medical services on a schedule that suits you. Be a vital part of your community &rsquo; s well-being while enjoying the flexibility to earn on your terms.
 
                     </p>
 
-                    <p className="text-sm mt-12 font-medium">
+                    <p className="responsive_text mt-12 font-medium">
                         <span className='font-semibold'>  3. Community-Centric Partnership: </span> Partner with Towmi to contribute to the well-being of your community. Utilize your ambulance and skills to provide essential emergency services, earning rewards while making a positive impact.
 
                     </p>

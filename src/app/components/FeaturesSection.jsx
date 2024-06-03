@@ -15,7 +15,7 @@ const FeaturesSection = () => {
                     <div className="w-[2rem] h-[2rem]  absolute left-[-1.3rem] top-[-1.4rem] transform scale-x-[-1]">
                         <Image className='w-full h-full' src={"/drops.svg"} alt='asset-image' width={50} height={50} />
                     </div>
-                    <span className='text-2xl font-semibold '> 📲 User-Friendly App</span>
+                    <span className='responsive_title font-semibold  l '> 📲 User-Friendly App</span>
 
                 </div>
                 <p className="text-sm font-light text-center mt-5">
@@ -32,8 +32,8 @@ const FeaturesSection = () => {
 
                 <div className="flex  flex-col items-center sm:h-[70vh]  justify-between">
                     <div className="flex flex-col w-10/12  md:w-6/12 sm:ml-auto">
-                        <span className='text-sm sm:text-lg font-semibold  sm:text-end'> Current Booking</span>
-                        <p className="text-sm font-light   sm:text-end mt-5">
+                        <span className='responsive_title font-light  sm:text-end'> Current Booking</span>
+                        <p className="responsive_text font-light   sm:text-end mt-5">
                             Show a list of active booking on home
                             screen make it easy for user to see current
                             and upcoming booking
@@ -43,8 +43,8 @@ const FeaturesSection = () => {
 
 
                     <div className="flex flex-col mt-5 w-10/12 md:w-6/12 sm:ml-auto ">
-                        <span className='text-sm sm:text-lg font-semibold  sm:text-end'> Car towing Booking</span>
-                        <p className="text-sm font-light mt-5 sm:text-end">
+                        <span className='responsive_title font-light sm:text-end'> Car towing Booking</span>
+                        <p className=" mt-5  responsive_text sm:text-end">
                             Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it.  Towmi &rsquo; s got your back!
                         </p>
                     </div>
@@ -63,18 +63,17 @@ const FeaturesSection = () => {
                     }}
                     whileInView={{ x: 0, opacity: 1 }}
 
-                    className="w-[23rem] md:w-[60rem] md:h-[97vh] my-3  h-[30rem]  " >
+                    className="w-[23rem] md:w-[55rem] md:h-[97vh] my-3  h-[30rem]  " >
                     <Image className='w-full  h-full' src={"/user_friendly_app.svg"} alt='asset-image' width={1400} height={1400} />
                 </motion.div>
 
 
 
 
-
-                <div className="flex  flex-col sm:h-[70vh] items-center justify-between">
+                <div className="flex  flex-col sm:h-[70vh]  justify-between">
                     <div className="flex flex-col w-10/12 md:w-6/12">
-                        <span className='text-sm sm:text-lg font-semibold  '> Current Booking</span>
-                        <p className="text-sm font-light   mt-5">
+                        <span className='responsive_title font-light    '> Current Booking</span>
+                        <p className="responsive_text    mt-5">
                             Show a list of active booking on home
                             screen make it easy for user to see current
                             and upcoming booking
@@ -84,8 +83,8 @@ const FeaturesSection = () => {
 
 
                     <div className="flex flex-col  mt-5  w-10/12 md:w-6/12">
-                        <span className='text-sm sm:text-lg font-semibold  '> Car towing Booking</span>
-                        <p className="text-sm font-light   mt-5">
+                        <span className='responsive_title font-light    '> Car towing Booking</span>
+                        <p className="responsive_text    mt-5">
                             Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it. Towmi&rsquo;s got your back!
                         </p>
                     </div>

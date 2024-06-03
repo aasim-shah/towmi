@@ -11,29 +11,29 @@ const CoverageSection = () => {
             <div className="w-9/12 mx-auto  justify-between  flex flex-col sm:flex-row ">
                 <div className="flex w-full sm:w-6/12 flex-col  justify-center ">
                     <div className="flex flex-row items-end ">
-                        <span className='text-lg sm:text-2xl  font-semibold '> 🗺️ Nationwide Coverage</span>
+                        <span className='responsive_title font-semibold '> 🗺️ Nationwide Coverage</span>
                         <div className="w-[2rem] h-[2rem]">
                             <Image className='w-full h-full' src={"/drops.svg"} alt='asset-image' width={50} height={50} />
                         </div>
                     </div>
 
-                    <p className="text-sm mt-12 font-medium">
+                    <p className="responsive_text mt-12    font-medium">
                         Towmi &rsquo; s extensive network spans across Nigeria, ensuring comprehensive coverage wherever you are. Drive confidently, knowing help is just a tap away.
                     </p>
 
 
-                    <p className="text-sm mt-12 font-medium">
+                    <p className="responsive_text mt-12    font-medium">
                         <span className='font-semibold'>   1. Nationwide Coverage : </span>
                         Towmi  &rsquo; s broad network ensures instant assistance across Nigeria, from cityscapes to remote areas. Drive confidently with help at your fingertips.
                     </p>
 
 
-                    <p className="text-sm mt-12 font-medium">
+                    <p className="responsive_text mt-12    font-medium">
                         <span className='font-semibold'>  2. 24/7 Assurance:  </span>  Towmi provides constant support, offering peace of mind around the clock. Drive confidently, knowing help is just a tap away anytime, day or night.
 
                     </p>
 
-                    <p className="text-sm mt-12 font-medium">
+                    <p className="responsive_text mt-12    font-medium">
                         <span className='font-semibold'>  3. On-Road Peace: </span> With Towmi &rsquo; s widespread coverage and unwavering support, experience tranquility on every journey, knowing assistance is there whenever needed.
 
                     </p>

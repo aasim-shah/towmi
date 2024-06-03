@@ -27,27 +27,27 @@ const ScheduleSection = () => {
                 </motion.div>
                 <div className="flex  w-full sm:w-6/12 flex-col justify-center  ">
                     <div className="flex flex-row items-end ">
-                        <span className=' text-lg sm:text-2xl font-semibold '> 📅 Flexible Scheduling</span>
+                        <span className=' responsive_title font-semibold '> 📅 Flexible Scheduling</span>
                         <div className="w-[2rem] h-[2rem]">
                             <Image className='w-full h-full' src={"/drops.svg"} width={50} height={50} />
                         </div>
                     </div>
 
-                    <p className="text-sm mt-12 font-medium">
+                    <p className=" mt-12 responsive_text font-medium">
                         Plan ahead with Towmi! Reserve ambulances, tow trucks, or trucks for a later time, tailored to your convenience – all from the convenience of your mobile device.
                     </p>
 
 
-                    <p className="text-sm mt-12 font-medium">
+                    <p className=" mt-12 responsive_text  font-medium">
                         <span className='font-semibold'>   1. Ambulance Reservations: </span> Plan ahead with Towmi! Easily reserve ambulances for future needs, ensuring swift medical assistance with just a few taps – your safety, our priority.                    </p>
 
 
-                    <p className="text-sm mt-12 font-medium">
+                    <p className=" mt-12 responsive_text  font-medium">
                         <span className='font-semibold'>  2. Tow Truck On-Demand:  </span> Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it.  Towmi &rsquo; s got your back!
 
                     </p>
 
-                    <p className="text-sm mt-12 font-medium">
+                    <p className=" mt-12 responsive_text  font-medium">
                         <span className='font-semibold'> 3. Effortless Truck Bookings: </span> Move heavy loads effortlessly with  Towmi &rsquo; s seamless truck bookings. Whether on-demand or scheduled for later, logistics becomes a breeze at your fingertips.
 
                     </p>

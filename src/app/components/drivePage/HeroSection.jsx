@@ -4,10 +4,13 @@ import React, { useState } from 'react'
 
 import { motion } from 'framer-motion'
 import CustomModal from '../ComingSoonModel'
+import CountdownTimer from '../CountDownTimer'
 
 const HeroSection = () => {
 
   const [isModalOpen, setModalOpen] = useState(false);
+  const targetDate = new Date("9/8/2024");
+
 
   const handleOpenModal = () => {
     setModalOpen(true);
@@ -28,16 +31,18 @@ const HeroSection = () => {
           </p>
 
 
-          <p className="text-white text-sm text-center sm:text-lg my-12 ">Drivers, meet Towmi – your on-demand driving companion! Experience seamless assistance at your fingertips. Drive smart with Towmi!</p>
+          <p className="text-white responsive_text my-12 ">Drivers, meet Towmi – your on-demand driving companion! Experience seamless assistance at your fingertips. Drive smart with Towmi!</p>
 
           <div className="flex w-full  sm:w-7/12   pb-3 justify-between flex-row">
-            <button onClick={handleOpenModal} className=''>
+            {/* <button onClick={handleOpenModal} className=''>
               <Image className='w-full h-full' src={"/Ios.svg"} alt='asset-image' width={500} height={400} />
             </button>
 
             <button onClick={handleOpenModal} className=''>
               <Image className='w-full h-full' src={"/Android.svg"} alt='asset-image' width={500} height={400} />
-            </button>
+            </button> */}
+
+          <CountdownTimer date={targetDate} className='text-white ' />
 
           </div>
 

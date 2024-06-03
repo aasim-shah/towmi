@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { motion, transform, useScroll } from "framer-motion"
 
 const BusinessSection = () => {
-  return (
+  return (  
     <nav className=' sm:px-20 md:px-32 px-4 pt-12  text-white flex flex-col  sm:flex-row justify-between bgClr'>
       <motion.div
         initial={{ y: 100, opacity: 0 }}

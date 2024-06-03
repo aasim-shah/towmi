@@ -27,25 +27,25 @@ const TruckOweners = () => {
                 </motion.div>
                 <div className="flex  w-full sm:w-6/12 flex-col justify-center  ">
                     <div className="flex flex-row items-end ">
-                        <span className=' text-lg sm:text-2xl font-semibold '> 🚚 Truck Owners & Operators Wanted</span>
+                        <span className='  responsive_title font-semibold '> 🚚 Truck Owners & Operators Wanted</span>
                         <div className="w-[2rem] h-[2rem]">
                             <Image className='w-full h-full' src={"/drops.svg"} width={50} height={50} />
                         </div>
                     </div>
 
-                    <p className="text-sm mt-12 font-medium">
+                    <p className="responsive_text mt-12 font-medium">
                     Own a truck? Join Towmi and turn your wheels into opportunities! Connect with users in need of transport services for heavy loads. Be your own boss, set your own schedule, and earn on your terms.                    </p>
                  
-                 <p className="text-sm mt-8 font-medium">
+                 <p className="responsive_text mt-8 font-medium">
                         <span className='font-semibold'>   1. </span> Transform Your Truck into Opportunities: Own a truck? Join Towmi and connect with users seeking transport services for heavy loads. Turn your wheels into a lucrative opportunity.                </p>
 
 
-                    <p className="text-sm mt-8 font-medium">
+                    <p className="responsive_text mt-8 font-medium">
                         <span className='font-semibold'>  2. Be Your Own Boss, </span> Set Your Schedule: With Towmi, you are in control. Be your own boss, set your schedule, and enjoy the flexibility of earning on your terms while providing essential transport services.
 
                     </p>
 
-                    <p className="text-sm mt-8 font-medium">
+                    <p className="responsive_text mt-8 font-medium">
                         <span className='font-semibold'> 3.Earn on Your Own Terms: </span> Join Towmi to turn your truck into a source of income. Enjoy the freedom to earn on your own terms, ensuring a rewarding experience as you fulfill the transport needs of our users.
 
                     </p>
