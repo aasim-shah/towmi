@@ -6,7 +6,7 @@ import { motion, transform, useScroll } from "framer-motion"
 
 const DriverCardsSection = () => {
     return (
-        <div className='max-w-[1280px] mx-auto  border  my-12'>
+        <div className='max-w-[1280px] mx-auto    my-12'>
             <div className="w-10/12 gap-3 mx-auto flex flex-col sm:flex-row">
                 <div className="bgClr w-full rounded-[1.3rem] p-8">
                     <motion.div
