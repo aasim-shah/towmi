@@ -6,7 +6,7 @@ import { motion, transform, useScroll } from "framer-motion"
 
 const FeaturesSection = () => {
     return (
-        <div className=' my-12  w-full '>
+        <div className=' my-12   max-w-[1280px] mx-auto  '>
 
 
 
@@ -30,8 +30,8 @@ const FeaturesSection = () => {
 
 
 
-                <div className="flex  flex-col items-center sm:h-[70vh]  justify-between">
-                    <div className="flex flex-col w-10/12  md:w-6/12 sm:ml-auto">
+                <div className="flex   flex-col items-center sm:h-[70vh]  justify-between">
+                    <div className="flex flex-col w-10/12  md:w-8/12 sm:ml-auto">
                         <span className='responsive_title font-light  sm:text-end'> Current Booking</span>
                         <p className="responsive_text font-light   sm:text-end mt-5">
                             Show a list of active booking on home
@@ -42,7 +42,7 @@ const FeaturesSection = () => {
 
 
 
-                    <div className="flex flex-col mt-5 w-10/12 md:w-6/12 sm:ml-auto ">
+                    <div className="flex flex-col mt-5 w-10/12 md:w-8/12 sm:ml-auto ">
                         <span className='responsive_title font-light sm:text-end'> Car towing Booking</span>
                         <p className=" mt-5  responsive_text sm:text-end">
                             Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it.  Towmi &rsquo; s got your back!
@@ -71,7 +71,7 @@ const FeaturesSection = () => {
 
 
                 <div className="flex  flex-col sm:h-[70vh]  justify-between">
-                    <div className="flex flex-col w-10/12 md:w-6/12">
+                    <div className="flex flex-col w-10/12 md:w-8/12">
                         <span className='responsive_title font-light    '> Current Booking</span>
                         <p className="responsive_text    mt-5">
                             Show a list of active booking on home
@@ -82,7 +82,7 @@ const FeaturesSection = () => {
 
 
 
-                    <div className="flex flex-col  mt-5  w-10/12 md:w-6/12">
+                    <div className="flex flex-col  mt-5  w-10/12 md:w-8/12">
                         <span className='responsive_title font-light    '> Car towing Booking</span>
                         <p className="responsive_text    mt-5">
                             Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it. Towmi&rsquo;s got your back!

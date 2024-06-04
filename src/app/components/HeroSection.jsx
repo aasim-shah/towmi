@@ -23,11 +23,11 @@ const HeroSection = () => {
   };
 
   return (
-    <div className=' pt-12  w-full '>
+    <div className=' pt-12 px-4 sm:px-0 max-w-[1280px] mx-auto '>
 
       <CustomModal isOpen={isModalOpen} onClose={handleCloseModal} />
 
-      <div className="w-9/12 mx-auto  justify-between  flex flex-col sm:flex-row ">
+      <div className="    justify-between  flex flex-col sm:flex-row ">
         <div className="flex w-11/12  sm:w-7/12  md:max-w-[70rem]   pb-10 flex-col   justify-between">
           <p className="text-white  relative text-[18px] sm:text-[45px] font-[500]">Meet Towmi – Your All-in-One Emergency Companion App in Nigeria!
             <Image className='absolute hidden sm:block bottom-0 left-[-1rem]' alt='asset-image' src={"/circle.svg"} width={210} height={40} />
@@ -64,7 +64,7 @@ const HeroSection = () => {
             duration: 0.3
           }}
           whileInView={{ x: 0, opacity: 1 }}
-          className="w-[17rem] sm:w-[20rem] mt-8 relative  h-[30rem]" >
+          className="w-[17rem] sm:w-[20rem] mt-8 relative  mx-auto h-[30rem]" >
 
           <Image className='w-full h-full  absolute top-5 sm:top-0' src={"/Hero_image.svg"} alt='asset-image' width={500} height={400} />
         </motion.div>

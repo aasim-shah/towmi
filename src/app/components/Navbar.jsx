@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='px-5 sm:px-20 py-5 text-white  flex flex-row justify-between items-center'>
+    <nav className='px-5 sm:px-20 py-5 text-white  max-w-[1280px] mx-auto   flex flex-row justify-between items-center'>
             <CustomModal isOpen={isModalOpen} onClose={handleCloseModal} />
 
         <Link href={"/"} className="logo">

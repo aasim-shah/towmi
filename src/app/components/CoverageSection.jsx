@@ -6,9 +6,9 @@ import { motion, transform, useScroll } from "framer-motion"
 
 const CoverageSection = () => {
     return (
-        <div className=' mt-32 mb-6  w-full '>
+        <div className=' mt-32 mb-6  max-w-[1280px] mx-auto   '>
 
-            <div className="w-9/12 mx-auto  justify-between  flex flex-col sm:flex-row ">
+            <div className="w-11/12 mx-auto  justify-between  flex flex-col sm:flex-row ">
                 <div className="flex w-full sm:w-6/12 flex-col  justify-center ">
                     <div className="flex flex-row items-end ">
                         <span className='responsive_title font-semibold '> 🗺️ Nationwide Coverage</span>

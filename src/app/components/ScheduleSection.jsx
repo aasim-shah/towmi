@@ -7,9 +7,9 @@ import { motion, transform, useScroll } from "framer-motion"
 const ScheduleSection = () => {
 
     return (
-        <div className=' pt-12  w-full '>
+        <div className=' pt-12  max-w-[1280px] mx-auto   '>
 
-            <div className="w-9/12 mx-auto  justify-between  flex flex-col-reverse sm:flex-row ">
+            <div className="w-11/12 mx-auto  justify-between  flex flex-col-reverse sm:flex-row ">
                 <motion.div
                     initial={{ x: -14 }}
                     transition={{

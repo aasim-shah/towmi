@@ -3,7 +3,7 @@ import React from 'react'
 
 const FooterSection = () => {
     return (
-        <div className="flex mt-12 pb-5 w-10/12 mx-auto justify-evenly flex-col  gap-5 sm:flex-row">
+        <div className="flex mt-12 pb-5 max-w-[1280px] mx-auto  justify-evenly flex-col  gap-5 sm:flex-row">
             <div className="flex flex-col sm:w-3/12">
                 <div className="logo">
                     <Image src={"/logo_blac.svg"} width={80} alt='asset-image' height={30} />

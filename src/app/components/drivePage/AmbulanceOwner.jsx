@@ -6,7 +6,7 @@ import { motion, transform, useScroll } from "framer-motion"
 
 const AmbulanceOwner = () => {
     return (
-        <div className=' mt-32 mb-12  w-full '>
+        <div className=' mt-32 mb-12  max-w-[1280px] mx-auto   '>
 
             <div className="w-9/12 mx-auto  justify-between  flex flex-col sm:flex-row ">
                 <div className="flex w-full sm:w-6/12 flex-col  justify-center ">

@@ -6,7 +6,8 @@ import { motion, transform, useScroll } from "framer-motion"
 
 const BusinessSection = () => {
   return (  
-    <nav className=' sm:px-20 md:px-32 px-4 pt-12  text-white flex flex-col  sm:flex-row justify-between bgClr'>
+    <div className='  pt-12  text-white flex flex-col  sm:flex-row justify-between bgClr'>
+      <div className="flex max-w-[1280px] mx-auto ">
       <motion.div
         initial={{ y: 100, opacity: 0 }}
         transition={{ duration: 0.5 }}
@@ -29,7 +30,8 @@ const BusinessSection = () => {
         <Image src={"/car-right-side.svg"} className='w-full h-full absolute  top-[2.8rem] sm:top-1' alt='asset-image' width={400} height={400} />
       </motion.div>
 
-    </nav>
+    </div>
+    </div>
   )
 }
 

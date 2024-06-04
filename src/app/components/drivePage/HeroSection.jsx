@@ -21,13 +21,13 @@ const HeroSection = () => {
   };
 
   return (
-    <div className=' pt-12  w-full '>
+    <div className=' pt-12 max-w-[1280px] mx-auto '>
 
       <CustomModal isOpen={isModalOpen} onClose={handleCloseModal} />
 
       <div className="w-9/12 mx-auto  justify-between  flex flex-col sm:flex-row ">
         <div className="flex w-11/12  sm:w-7/12  md:max-w-[70rem]   pb-10 flex-col   justify-between">
-          <p className="text-white relative text-[18px] sm:text-[45px] font-[500]">Calling All Drivers! Drive with Towmi – Your Ultimate On-Demand Platform!!
+          <p className="text-white relative text-[18px] sm:text-[35px] font-[500]">Calling All Drivers! Drive with Towmi – Your Ultimate On-Demand Platform!!
           </p>
 
 

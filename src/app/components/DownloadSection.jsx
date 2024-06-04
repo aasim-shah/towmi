@@ -16,7 +16,8 @@ const DownloadSection = () => {
     setModalOpen(false);
   };
   return (
-    <div className='  bgClr pt-10   w-full '>
+    <div className='  bgClr pt-10    w-full '>
+      <div className="flex max-w-[1280px] mx-auto ">
 
       <CustomModal isOpen={isModalOpen} onClose={handleCloseModal} />
 
@@ -45,6 +46,7 @@ const DownloadSection = () => {
           className="w-[20rem] mt-12  relative flex items-end justify-end mb-0 pb-0 h-[13rem] sm:h-[20rem]" >
           <Image className='w-full h-full absolute top-1 sm:top-4' src={"/download_app.svg"} alt='asset-image' width={500} height={400} />
         </motion.div>
+      </div>
       </div>
 
     </div>
