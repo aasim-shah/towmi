@@ -40,7 +40,7 @@ const DriverCardsSection = () => {
                         transition={{ duration: 0.5 }}
                         whileInView={{ x: 0, opacity: 1 }}
                         className="w-[4rem] mx-auto h-[4rem]" >
-                        <Image className='w-full h-full' src={"/driver/vector.svg"} alt='asset-image' width={500} height={400} />
+                        <Image className='w-full h-full' src={"/driver/Vector.svg"} alt='asset-image' width={500} height={400} />
                     </motion.div>
                     <p className="text-center text-gray-200 my-5 font-semibold">Expand Your Reach</p>
                     <p className="text-center text-gray-100 px-3 font-light">
