@@ -33,19 +33,19 @@ const TruckOweners = () => {
                         </div>
                     </div>
 
-                    <p className="responsive_text mt-12 font-medium">
+                    <p className="responsive_text mt-12 ">
                     Own a truck? Join Towmi and turn your wheels into opportunities! Connect with users in need of transport services for heavy loads. Be your own boss, set your own schedule, and earn on your terms.                    </p>
                  
-                 <p className="responsive_text mt-8 font-medium">
+                 <p className="responsive_text mt-8 ">
                         <span className='font-semibold'>   1. </span> Transform Your Truck into Opportunities: Own a truck? Join Towmi and connect with users seeking transport services for heavy loads. Turn your wheels into a lucrative opportunity.                </p>
 
 
-                    <p className="responsive_text mt-8 font-medium">
+                    <p className="responsive_text mt-8 ">
                         <span className='font-semibold'>  2. Be Your Own Boss, </span> Set Your Schedule: With Towmi, you are in control. Be your own boss, set your schedule, and enjoy the flexibility of earning on your terms while providing essential transport services.
 
                     </p>
 
-                    <p className="responsive_text mt-8 font-medium">
+                    <p className="responsive_text mt-8 ">
                         <span className='font-semibold'> 3.Earn on Your Own Terms: </span> Join Towmi to turn your truck into a source of income. Enjoy the freedom to earn on your own terms, ensuring a rewarding experience as you fulfill the transport needs of our users.
 
                     </p>

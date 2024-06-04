@@ -17,22 +17,22 @@ const AmbulanceOwner = () => {
                         <span className='responsive_title  font-semibold '> 🚑 Ambulance Owners & Operators Needed:</span>
                     </div>
 
-                    <p className="responsive_text mt-12 font-medium">
+                    <p className="responsive_text mt-12 ">
                     If you own an ambulance and have the skills to provide emergency medical assistance, Towmi is the platform for you. Partner with us to serve your community and earn on a flexible schedule.
                     </p>
 
 
-                    <p className="responsive_text mt-12 font-medium">
+                    <p className="responsive_text mt-12 ">
                         <span className='font-semibold'>   1.Emergency Medical Assistance Provider: </span> If you own an ambulance and possess emergency medical skills, Towmi welcomes you! Partner with us to provide crucial assistance, serving your community during critical times.
                     </p>
 
 
-                    <p className="responsive_text mt-12 font-medium">
+                    <p className="responsive_text mt-12 ">
                         <span className='font-semibold'>  2. Flexible Schedule, Essential Service: </span> Join Towmi to offer emergency medical services on a schedule that suits you. Be a vital part of your community &rsquo; s well-being while enjoying the flexibility to earn on your terms.
 
                     </p>
 
-                    <p className="responsive_text mt-12 font-medium">
+                    <p className="responsive_text mt-12 ">
                         <span className='font-semibold'>  3. Community-Centric Partnership: </span> Partner with Towmi to contribute to the well-being of your community. Utilize your ambulance and skills to provide essential emergency services, earning rewards while making a positive impact.
 
                     </p>

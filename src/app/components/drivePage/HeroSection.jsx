@@ -26,12 +26,12 @@ const HeroSection = () => {
       <CustomModal isOpen={isModalOpen} onClose={handleCloseModal} />
 
       <div className="w-9/12 mx-auto  justify-between  flex flex-col sm:flex-row ">
-        <div className="flex w-11/12  sm:w-7/12  md:max-w-[50rem]   pb-10 flex-col   justify-between">
+        <div className="flex w-11/12  sm:w-7/12  md:max-w-[70rem]   pb-10 flex-col   justify-between">
           <p className="text-white relative text-[18px] sm:text-[45px] font-[500]">Calling All Drivers! Drive with Towmi – Your Ultimate On-Demand Platform!!
           </p>
 
 
-          <p className="text-white responsive_text">Drivers, meet Towmi – your on-demand driving companion! Experience seamless assistance at your fingertips. Drive smart with Towmi!</p>
+          <p className="text-white 2xl:my-4 responsive_text">Drivers, meet Towmi – your on-demand driving companion! Experience seamless assistance at your fingertips. Drive smart with Towmi!</p>
 
           <div className="flex w-full  sm:w-7/12   pb-3 justify-between flex-row">
             {/* <button onClick={handleOpenModal} className=''>

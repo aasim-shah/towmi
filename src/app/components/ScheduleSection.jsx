@@ -33,21 +33,21 @@ const ScheduleSection = () => {
                         </div>
                     </div>
 
-                    <p className=" mt-12 responsive_text font-medium">
+                    <p className=" mt-12 responsive_text ">
                         Plan ahead with Towmi! Reserve ambulances, tow trucks, or trucks for a later time, tailored to your convenience – all from the convenience of your mobile device.
                     </p>
 
 
-                    <p className=" mt-12 responsive_text  font-medium">
+                    <p className=" mt-12 responsive_text  ">
                         <span className='font-semibold'>   1. Ambulance Reservations: </span> Plan ahead with Towmi! Easily reserve ambulances for future needs, ensuring swift medical assistance with just a few taps – your safety, our priority.                    </p>
 
 
-                    <p className=" mt-12 responsive_text  font-medium">
+                    <p className=" mt-12 responsive_text  ">
                         <span className='font-semibold'>  2. Tow Truck On-Demand:  </span> Swiftly book tow trucks on the go or schedule for later, providing reliable roadside assistance wherever and whenever you need it.  Towmi &rsquo; s got your back!
 
                     </p>
 
-                    <p className=" mt-12 responsive_text  font-medium">
+                    <p className=" mt-12 responsive_text">
                         <span className='font-semibold'> 3. Effortless Truck Bookings: </span> Move heavy loads effortlessly with  Towmi &rsquo; s seamless truck bookings. Whether on-demand or scheduled for later, logistics becomes a breeze at your fingertips.
 
                     </p>

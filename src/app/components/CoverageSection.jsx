@@ -6,7 +6,7 @@ import { motion, transform, useScroll } from "framer-motion"
 
 const CoverageSection = () => {
     return (
-        <div className=' mt-32  w-full '>
+        <div className=' mt-32 mb-6  w-full '>
 
             <div className="w-9/12 mx-auto  justify-between  flex flex-col sm:flex-row ">
                 <div className="flex w-full sm:w-6/12 flex-col  justify-center ">
@@ -17,23 +17,23 @@ const CoverageSection = () => {
                         </div>
                     </div>
 
-                    <p className="responsive_text mt-12    font-medium">
+                    <p className="responsive_text mt-12    ">
                         Towmi &rsquo; s extensive network spans across Nigeria, ensuring comprehensive coverage wherever you are. Drive confidently, knowing help is just a tap away.
                     </p>
 
 
-                    <p className="responsive_text mt-12    font-medium">
+                    <p className="responsive_text mt-12    ">
                         <span className='font-semibold'>   1. Nationwide Coverage : </span>
                         Towmi  &rsquo; s broad network ensures instant assistance across Nigeria, from cityscapes to remote areas. Drive confidently with help at your fingertips.
                     </p>
 
 
-                    <p className="responsive_text mt-12    font-medium">
+                    <p className="responsive_text mt-12    ">
                         <span className='font-semibold'>  2. 24/7 Assurance:  </span>  Towmi provides constant support, offering peace of mind around the clock. Drive confidently, knowing help is just a tap away anytime, day or night.
 
                     </p>
 
-                    <p className="responsive_text mt-12    font-medium">
+                    <p className="responsive_text mt-12    ">
                         <span className='font-semibold'>  3. On-Road Peace: </span> With Towmi &rsquo; s widespread coverage and unwavering support, experience tranquility on every journey, knowing assistance is there whenever needed.
 
                     </p>
