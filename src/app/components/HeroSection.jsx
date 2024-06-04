@@ -29,15 +29,15 @@ const HeroSection = () => {
 
       <div className="w-9/12 mx-auto  justify-between  flex flex-col sm:flex-row ">
         <div className="flex w-11/12  sm:w-7/12  md:max-w-[70rem]   pb-10 flex-col   justify-between">
-          <p className="text-white relative text-[18px] sm:text-[45px] font-[500]">Meet Towmi – Your All-in-One Emergency Companion App in Nigeria!
+          <p className="text-white  relative text-[18px] sm:text-[45px] font-[500]">Meet Towmi – Your All-in-One Emergency Companion App in Nigeria!
             <Image className='absolute hidden sm:block bottom-0 left-[-1rem]' alt='asset-image' src={"/circle.svg"} width={210} height={40} />
           </p>
 
 
-          <p className="text-white   responsive_text  ">Towmi: Nigeria &rsquo; s emergency companion. Swift access to essential services, ensuring peace of mind in any situation – your safety, our priority!</p>
+          <p className="text-white  my-4 sm:my-0 responsive_text  ">Towmi: Nigeria &rsquo; s emergency companion. Swift access to essential services, ensuring peace of mind in any situation – your safety, our priority!</p>
           <div className="flex flex-col text-white ">
             <p className="text-lg">We are almost ready ...</p>
-            <p className="text-2xl font-semibold ">Launching IN</p>
+            <p className="text-lg xl:text-2xl mb-3 sm:mb-0 font-semibold ">Launching IN</p>
           </div>
 
           <div className="flex w-full  sm:w-7/12   pb-3 justify-between flex-row">

@@ -31,7 +31,12 @@ const HeroSection = () => {
           </p>
 
 
-          <p className="text-white 2xl:my-4 responsive_text">Drivers, meet Towmi – your on-demand driving companion! Experience seamless assistance at your fingertips. Drive smart with Towmi!</p>
+          <p className="text-white my-4 responsive_text">Drivers, meet Towmi – your on-demand driving companion! Experience seamless assistance at your fingertips. Drive smart with Towmi!</p>
+
+          <div className="flex flex-col text-white ">
+            <p className="text-lg">We are almost ready ...</p>
+            <p className="text-lg xl:text-2xl mb-3 sm:mb-0 font-semibold ">Launching IN</p>
+          </div>
 
           <div className="flex w-full  sm:w-7/12   pb-3 justify-between flex-row">
             {/* <button onClick={handleOpenModal} className=''>
